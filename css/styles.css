@@ -6,6 +6,10 @@ body {
   font-family: "Open Sans", sans-serif;
   line-height: 1.7em;
 }
+html,
+body {
+  overflow-x: hidden;
+}
 body::-webkit-scrollbar {
   display: none;
 }
@@ -194,4 +198,77 @@ footer i {
     url("../img/home/blog.jpg") no-repeat center center/cover;
   display: flex;
   flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+  .Navbar .logo {
+    font-size: 25px;
+    flex: none;
+  }
+  .Navbar {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .tags p {
+    padding: 10px !important;
+  }
+  .Navbar p {
+    padding: 2px 3px;
+  }
+  .below-landing-page {
+    display: flex;
+    flex-direction: column;
+  }
+  .below-landing-page-box {
+    padding: 25px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  .solutions {
+    display: flex;
+    flex-direction: column;
+  }
+  .img-box {
+    width: 100%;
+  }
+
+  .case-imgs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: unset;
+  }
+  .case-imgs img {
+    display: inline-block;
+    padding: 6px 1.5px;
+    width: 100%;
+  }
+  .cases {
+    padding-bottom: 0;
+  }
+  .team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 35px;
+    background: #f4f4f4;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .box {
+    display: flex;
+    align-items: center;
+    color: white;
+    background: green;
+    width: 100%;
+  }
 }
