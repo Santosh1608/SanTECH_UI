@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.7em;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.case-imgs::-webkit-scrollbar {
+  display: none;
+}
+
+/*Utils*/
+.text-green {
+  color: green;
+}
+.btn {
+  background: green;
+  padding: 10px 20px;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+
+/*landing-screen*/
+.landing-page {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../img/home/showcase.jpg") no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+}
+.Navbar .logo {
+  font-size: 25px;
+  flex: 1;
+}
+.Navbar {
+  color: white;
+  display: flex;
+  align-items: flex-start;
+}
+.tags {
+  display: flex;
+}
+
+.Navbar p {
+  padding: 20px 30px;
+}
+.landing-content {
+  width: 700px;
+  color: white;
+  text-align: center;
+  align-self: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.landing-content h1 {
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.landing-content p {
+  margin-bottom: 20px;
+}
+/* below landing screen*/
+.below-landing-page {
+  display: flex;
+  justify-content: center;
+}
+.below-landing-page-box {
+  padding: 25px;
+  text-align: center;
+  width: 25%;
+}
+.below-landing-page-box h3,
+.below-landing-page-box p {
+  padding-bottom: 18px;
+}
+
+.below-landing-page-box i {
+  background: green;
+  border-radius: 100%;
+  margin-bottom: 10px;
+}
+
+/*solutions*/
+.solutions {
+  display: flex;
+}
+
+.img-box {
+  width: 50%;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  color: white;
+  background: green;
+  width: 50%;
+}
+
+.inner-box {
+  padding: 20px;
+}
+.inner-box h2,
+.inner-box p {
+  padding-bottom: 10px;
+}
+/*cases*/
+.cases {
+  padding-bottom: 5rem;
+}
+.case-content {
+  padding: 10px;
+  font-weight: 400;
+  text-align: center;
+}
+.case-content p {
+  padding: 15px;
+}
+
+.case-imgs {
+  overflow-x: scroll;
+  display: flex;
+  justify-content: space-around;
+}
+
+.case-imgs img {
+  display: inline-block;
+  padding: 6px 1.5px;
+}
+
+/*Teams*/
+
+.team {
+  display: flex;
+  justify-content: center;
+}
+.team-person {
+  text-align: center;
+  padding: 50px;
+}
+.team-person img {
+  border-radius: 100%;
+  max-width: 100%;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 35px;
+  background: #f4f4f4;
+  width: 50%;
+}
+.contact-form h2 {
+  padding-top: 40px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.contact-form input {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid white;
+  margin-bottom: 20px;
+}
+
+footer {
+  background: rgb(31, 29, 29);
+  color: white;
+  padding: 40px;
+}
+footer p {
+  text-align: center;
+}
+footer div {
+  display: flex;
+  justify-content: center;
+}
+footer i {
+  padding: 1rem;
+}
+
+/*-------------------------------------------------------*/
+.blog-page {
+  height: 30vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../img/home/blog.jpg") no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+}
